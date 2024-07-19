@@ -6,12 +6,12 @@
  Classes and Their Functions:
 
 <h2> Car Class : </h2>
-- Attributes:
-  - carId: Unique identifier for the car.
-  - brand: The car's brand.
-  - model: The car's model.
-  - basePricePerDay: Daily rental price for the car.
-  - isAvailable: A boolean indicating if the car is available for rent.
+- Attributes:</br>
+  - carId: Unique identifier for the car.</br>
+  - brand: The car's brand.</br>
+  - model: The car's model.</br>
+  - basePricePerDay: Daily rental price for the car.</br>
+  - isAvailable: A boolean indicating if the car is available for rent.</br>
 - Methods:
   - Constructor: Initializes a new Car instance with the given carId, brand, model, and basePricePerDay. Sets isAvailable to true.  </br>
   - Getters: Methods to access the car's carId, brand, model, and availability status.</br>
@@ -58,15 +58,15 @@
 <h3> Program Flow: </h3>
 
 1. Initialization: The main method creates a CarRentalSystem instance and adds some sample cars to the system. </br>
-2. Menu Display: The menu method displays a menu with options to rent a car, return a car, or exit.
-3. Rent a Car:
-   - Prompts the user to enter their name.
-   - Displays available cars.
-   - Prompts the user to select a car and specify rental days.
-   - Adds a new customer and confirms the rental.
-4. Return a Car:
-   - Prompts the user to enter the car ID of the car to be returned.
-   - Updates the car's availability and removes the rental record.
-5. Exit: Ends the program.
+2. Menu Display: The menu method displays a menu with options to rent a car, return a car, or exit.</br>
+3. Rent a Car:</br>
+   - Prompts the user to enter their name.</br>
+   - Displays available cars.</br>
+   - Prompts the user to select a car and specify rental days.</br>
+   - Adds a new customer and confirms the rental.</br>
+4. Return a Car:</br>
+   - Prompts the user to enter the car ID of the car to be returned.</br>
+   - Updates the car's availability and removes the rental record.</br>
+5. Exit: Ends the program.</br>
 
 This program provides a foundational structure for a car rental system, which can be further enhanced with additional features like advanced error handling, more detailed rental records, and a persistent storage mechanism for cars, customers, and rentals.
