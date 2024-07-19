@@ -7,17 +7,17 @@
 
 <h2> Car Class : </h2>
 - Attributes:
-  - `carId`: Unique identifier for the car.
-  - `brand`: The car's brand.
-  - `model`: The car's model.
-  - `basePricePerDay`: Daily rental price for the car.
-  - `isAvailable`: A boolean indicating if the car is available for rent.
+  - carId: Unique identifier for the car.
+  - brand: The car's brand.
+  - model: The car's model.
+  - basePricePerDay: Daily rental price for the car.
+  - isAvailable: A boolean indicating if the car is available for rent.
 - Methods:
-  - Constructor: Initializes a new Car instance with the given `carId`, `brand`, `model`, and `basePricePerDay`. Sets `isAvailable` to true.  </br>
-  - Getters: Methods to access the car's `carId`, `brand`, `model`, and availability status.</br>
+  - Constructor: Initializes a new Car instance with the given carId, brand, model, and basePricePerDay. Sets isAvailable to true.  </br>
+  - Getters: Methods to access the car's carId, brand, model, and availability status.</br>
   - calculatePrice(int rentalDays): Computes the total rental cost based on the number of rental days.</br>
-  - rent(): Marks the car as rented by setting `isAvailable` to false.</br>
-  - returnCar(): Marks the car as available by setting `isAvailable` to true. </br>
+  - rent(): Marks the car as rented by setting isAvailable to false.</br>
+  - returnCar(): Marks the car as available by setting isAvailable to true. </br>
 
 <h2> Customer Class : </h2>
 - Attributes: </br>
@@ -37,28 +37,28 @@
   - Getters: Methods to access the car, customer, and days. </br>
 
 <h2> CarRentalSystem Class : </h2>
-- Attributes:
-  - `cars`: A list of all available cars.
-  - `customers`: A list of all customers.
-  - `rentals`: A list of all rental transactions.
-- Methods:
-  - Constructor: Initializes empty lists for `cars`, `customers`, and `rentals`.
-  - addCar(Car car): Adds a new car to the `cars` list.
-  - addCustomer(Customer customer): Adds a new customer to the `customers` list.
-  - rentCar(Car car, Customer customer, int days): Rents a car to a customer for a specified number of days. Adds the rental to the `rentals` list and updates the car's availability.
-  - returnCar(Car car): Returns a rented car, updates its availability, and removes the corresponding rental from the `rentals` list.
-  - menu(): Displays the menu and handles user input for renting and returning cars.
+- Attributes:</br>
+  - cars: A list of all available cars.</br>
+  - customers: A list of all customers.</br>
+  - rentals: A list of all rental transactions.</br>
+- Methods:</br>
+  - Constructor: Initializes empty lists for cars, customers, and rentals.</br>
+  - addCar(Car car): Adds a new car to the cars list.</br>
+  - addCustomer(Customer customer): Adds a new customer to the customers list.</br>
+  - rentCar(Car car, Customer customer, int days): Rents a car to a customer for a specified number of days. Adds the rental to the rentals list and updates the car's availability.</br>
+  - returnCar(Car car): Returns a rented car, updates its availability, and removes the corresponding rental from the rentals list.
+  - menu(): Displays the menu and handles user input for renting and returning cars.</br>
 
 <h2> Main Class: </h2>
-- main() Method:
-  - Creates an instance of `CarRentalSystem`.
-  - Adds sample cars to the system.
-  - Calls the `menu()` method to start the interactive console for car rental operations.
+- main() Method:</br>
+  - Creates an instance of CarRentalSystem.</br>
+  - Adds sample cars to the system.</br>
+  - Calls the menu() method to start the interactive console for car rental operations.</br>
 
 <h3> Program Flow: </h3>
 
-1. Initialization: The `main` method creates a `CarRentalSystem` instance and adds some sample cars to the system.
-2. Menu Display: The `menu` method displays a menu with options to rent a car, return a car, or exit.
+1. Initialization: The main method creates a CarRentalSystem instance and adds some sample cars to the system. </br>
+2. Menu Display: The menu method displays a menu with options to rent a car, return a car, or exit.
 3. Rent a Car:
    - Prompts the user to enter their name.
    - Displays available cars.
