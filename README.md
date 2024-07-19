@@ -1,9 +1,9 @@
 # Car-rental-system
 
-<h3>
+<h4>
   Java program implements a basic car rental system, providing functionalities to rent and return cars, manage customer records, and track rental history. Here's a detailed explanation of the code components:.
-</h3>
- Classes and Their Functions:
+</h4>
+ <h3>Classes and Their Functions: </h3>
 
 <h2> Car Class : </h2>
 - Attributes:</br>
