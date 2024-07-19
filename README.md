@@ -1,5 +1,49 @@
 # Car-rental-system
 
+###  Rent a Car
+Purpose: This feature allows customers to rent cars with ease.</br>
+
+Key Points:</br>
+- Interactive Console: The process is designed to be user-friendly and can be navigated through an interactive console, which can be a command-line interface (CLI) or a graphical user interface (GUI).</br>
+- Car Selection: Customers can browse through available cars based on different criteria such as brand, model, and price.</br>
+- Confirmation: Once a customer selects a car, they can confirm the rental, and the system updates the car's status to 'rented'.</br>
+
+### 🔁 Return a Car
+Purpose: This feature simplifies the process of returning rented cars and updating their availability in the system.</br>
+
+Key Points:
+- Identify Rental: The system identifies the car being returned based on the rental record.</br>
+- Update Status: The car's status is updated to 'available'.</br>
+- Calculate Duration and Cost: The system calculates the total rental duration and the cost based on the rental period.</br>
+- Update Rental History: The rental transaction details are saved for future reference.</br>
+
+### 👥 Customer Management
+Purpose: This feature manages customer information and maintains records.</br>
+
+Key Points:</br>
+- Add Customers: New customers can be added to the system with their personal details.</br>
+- Edit Details: Existing customer information can be updated as needed.</br>
+- Maintain Records: The system keeps track of all customers, including their rental history, contact information, and preferences.</br>
+
+### 🚗 Car Management
+Purpose: This feature handles the management of the car fleet.</br>
+
+Key Points:</br>
+- Add Cars: New cars can be added to the system, including details such as brand, model, and pricing.</br>
+- Update Car Details: Existing car information can be edited (e.g., updating the pricing or car status).</br>
+- Manage Fleet: The system provides an overview of all cars, including their availability status and other relevant details.</br>
+
+<h3> 📝 Rental History</h3>
+Purpose: This feature keeps track of all rental transactions.</br>
+
+Key Points:</br>
+- Track Rentals: The system logs each rental transaction, including the car, customer, rental period, and cost.
+- Customer Rental History: It maintains a history of all rentals for each customer, which can be useful for generating reports and understanding customer preferences.</br>
+- Duration Tracking: The rental history helps in calculating and displaying the rental duration for each transaction.</br>
+
+These features combined provide a comprehensive solution for managing a car rental business, ensuring smooth operations and a positive customer experience.</br>
+
+
 <h4>
   Java program implements a basic car rental system, providing functionalities to rent and return cars, manage customer records, and track rental history. Here's a detailed explanation of the code components:.
 </h4>
