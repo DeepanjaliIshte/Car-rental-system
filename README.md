@@ -114,3 +114,6 @@ These features combined provide a comprehensive solution for managing a car rent
 5. Exit: Ends the program.</br>
 
 This program provides a foundational structure for a car rental system, which can be further enhanced with additional features like advanced error handling, more detailed rental records, and a persistent storage mechanism for cars, customers, and rentals.
+
+https://github.com/user-attachments/assets/ba0cb211-1a2a-4468-ad9a-cdf5428a9342
+
